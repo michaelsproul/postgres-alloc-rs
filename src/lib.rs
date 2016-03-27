@@ -3,6 +3,7 @@
 #![allocator]
 #![no_std]
 
+#![feature(libc)]
 extern crate libc;
 
 use libc::{size_t, c_void};
