@@ -1,10 +1,11 @@
 [package]
 name = "postgres_alloc"
 version = "0.0.1"
-authors = ["Michael Sproul <micsproul@gmail.com>"]
+authors = ["Michael Sproul <micsproul@gmail.com>", "Angus Thomsen <aksthomsen@gmail.com>"]
+description = "Use the PostgreSQL allocator from Rust!"
+license = "Apache-2.0/MIT"
+documentation = "https://github.com/michaelsproul/postgres-alloc-rs"
+repository = "https://github.com/michaelsproul/postgres-alloc-rs"
 
 [lib]
 crate-type = ["rlib"]
-
-[dependencies]
-# libc = "0.2"
